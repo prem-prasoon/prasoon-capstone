@@ -1,13 +1,29 @@
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
 .venv/
 venv/
 
-# Secrets — never commit these
+# Environment/secrets
 .env
-.env.local
+.env.*
+!.env.example
 *.key
 
-# OS
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Linters/type checking
+.ruff_cache/
+.mypy_cache/
+
+# IDE / OS
+.vscode/
+.idea/
 .DS_Store
+Thumbs.db
