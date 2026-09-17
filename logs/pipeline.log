@@ -68,3 +68,68 @@
 {"ts": 1789670419.586, "level": "INFO", "msg": "asked: What is RAG?", "logger": "pipeline"}
 {"ts": 1789670419.832, "level": "INFO", "msg": "asked: What is RAG?", "logger": "pipeline"}
 {"ts": 1789670424.799, "level": "INFO", "msg": "asked: What is RAG?", "logger": "pipeline"}
+{"ts": 1789670954.846, "level": "INFO", "msg": "asked: What is rag in one sentence ?", "logger": "pipeline"}
+{"ts": 1789670956.96, "level": "INFO", "msg": "asked: What is rag in one sentence ?", "logger": "pipeline"}
+{"ts": 1789675838.448, "level": "WARNING", "msg": "retry 1 for: fail_test (Transient API failure)", "logger": "pipeline"}
+{"ts": 1789675838.45, "level": "WARNING", "msg": "retry 2 for: fail_test (Transient API failure)", "logger": "pipeline"}
+{"ts": 1789675838.45, "level": "ERROR", "msg": "Failed after 3 attempts: fail_test (Transient API failure)", "logger": "pipeline"}
+{"ts": 1789675985.464, "level": "INFO", "msg": "[gpt-4o-mini] asked: What is retrieval-augmented generation i | cost: $0.000030", "logger": "pipeline"}
+{"ts": 1789675987.632, "level": "INFO", "msg": "[gpt-4o-mini] asked: Name three real-world uses of vector dat | cost: $0.000030", "logger": "pipeline"}
+{"ts": 1789675990.041, "level": "INFO", "msg": "[gpt-4o-mini] asked: Why might an LLM produce hallucinations? | cost: $0.000055", "logger": "pipeline"}
+{"ts": 1789675992.008, "level": "INFO", "msg": "[gpt-4o-mini] asked: What is a Pydantic BaseModel used for in | cost: $0.000045", "logger": "pipeline"}
+{"ts": 1789675994.133, "level": "INFO", "msg": "[gpt-4o-mini] asked: Explain async and await in plain languag | cost: $0.000064", "logger": "pipeline"}
+{"ts": 1789675996.344, "level": "INFO", "msg": "[gpt-4o-mini] asked: How does cosine similarity measure seman | cost: $0.000059", "logger": "pipeline"}
+{"ts": 1789675998.648, "level": "INFO", "msg": "[gpt-4o-mini] asked: What is the difference between a prompt  | cost: $0.000043", "logger": "pipeline"}
+{"ts": 1789676000.879, "level": "INFO", "msg": "[gpt-4o-mini] asked: Why do production pipelines require expo | cost: $0.000052", "logger": "pipeline"}
+{"ts": 1789676002.979, "level": "INFO", "msg": "[gpt-4o-mini] asked: What is tokenization in the context of l | cost: $0.000048", "logger": "pipeline"}
+{"ts": 1789676005.608, "level": "INFO", "msg": "[gpt-4o-mini] asked: Name two differences between dense and s | cost: $0.000041", "logger": "pipeline"}
+{"ts": 1789676007.713, "level": "INFO", "msg": "[gpt-4o-mini] asked: What is the primary trade-off of using l | cost: $0.000052", "logger": "pipeline"}
+{"ts": 1789676011.073, "level": "INFO", "msg": "[gpt-4o-mini] asked: Why should API secrets never be committe | cost: $0.000046", "logger": "pipeline"}
+{"ts": 1789676013.04, "level": "INFO", "msg": "[gpt-4o-mini] asked: How does temperature affect LLM output s | cost: $0.000045", "logger": "pipeline"}
+{"ts": 1789676015.05, "level": "INFO", "msg": "[gpt-4o-mini] asked: What is the purpose of a database foreig | cost: $0.000049", "logger": "pipeline"}
+{"ts": 1789676017.18, "level": "INFO", "msg": "[gpt-4o-mini] asked: Explain the difference between asyncio.g | cost: $0.000063", "logger": "pipeline"}
+{"ts": 1789676019.145, "level": "INFO", "msg": "[gpt-4o-mini] asked: What does an embedding dimension represe | cost: $0.000047", "logger": "pipeline"}
+{"ts": 1789676021.041, "level": "INFO", "msg": "[gpt-4o-mini] asked: Why is structured JSON logging preferred | cost: $0.000037", "logger": "pipeline"}
+{"ts": 1789676023.436, "level": "INFO", "msg": "[gpt-4o-mini] asked: How do rate limits protect AI API infras | cost: $0.000039", "logger": "pipeline"}
+{"ts": 1789676025.609, "level": "INFO", "msg": "[gpt-4o-mini] asked: What role does a cross-encoder play in r | cost: $0.000055", "logger": "pipeline"}
+{"ts": 1789676031.785, "level": "INFO", "msg": "[gpt-4o-mini] asked: Explain what zero-shot classification me | cost: $0.000042", "logger": "pipeline"}
+{"ts": 1789676040.329, "level": "INFO", "msg": "[gpt-4o-mini] asked: What is retrieval-augmented generation i | cost: $0.000030", "logger": "pipeline"}
+{"ts": 1789676042.275, "level": "INFO", "msg": "[gpt-4o-mini] asked: Name three real-world uses of vector dat | cost: $0.000045", "logger": "pipeline"}
+{"ts": 1789676044.362, "level": "INFO", "msg": "[gpt-4o-mini] asked: Why might an LLM produce hallucinations? | cost: $0.000057", "logger": "pipeline"}
+{"ts": 1789676046.414, "level": "INFO", "msg": "[gpt-4o-mini] asked: What is a Pydantic BaseModel used for in | cost: $0.000047", "logger": "pipeline"}
+{"ts": 1789676048.547, "level": "INFO", "msg": "[gpt-4o-mini] asked: Explain async and await in plain languag | cost: $0.000068", "logger": "pipeline"}
+{"ts": 1789676051.034, "level": "INFO", "msg": "[gpt-4o-mini] asked: How does cosine similarity measure seman | cost: $0.000060", "logger": "pipeline"}
+{"ts": 1789676052.897, "level": "INFO", "msg": "[gpt-4o-mini] asked: What is the difference between a prompt  | cost: $0.000041", "logger": "pipeline"}
+{"ts": 1789676055.161, "level": "INFO", "msg": "[gpt-4o-mini] asked: Why do production pipelines require expo | cost: $0.000041", "logger": "pipeline"}
+{"ts": 1789676057.538, "level": "INFO", "msg": "[gpt-4o-mini] asked: What is tokenization in the context of l | cost: $0.000063", "logger": "pipeline"}
+{"ts": 1789676059.81, "level": "INFO", "msg": "[gpt-4o-mini] asked: Name two differences between dense and s | cost: $0.000046", "logger": "pipeline"}
+{"ts": 1789676061.842, "level": "INFO", "msg": "[gpt-4o-mini] asked: What is the primary trade-off of using l | cost: $0.000052", "logger": "pipeline"}
+{"ts": 1789676064.034, "level": "INFO", "msg": "[gpt-4o-mini] asked: Why should API secrets never be committe | cost: $0.000046", "logger": "pipeline"}
+{"ts": 1789676066.178, "level": "INFO", "msg": "[gpt-4o-mini] asked: How does temperature affect LLM output s | cost: $0.000047", "logger": "pipeline"}
+{"ts": 1789676068.187, "level": "INFO", "msg": "[gpt-4o-mini] asked: What is the purpose of a database foreig | cost: $0.000049", "logger": "pipeline"}
+{"ts": 1789676070.228, "level": "INFO", "msg": "[gpt-4o-mini] asked: Explain the difference between asyncio.g | cost: $0.000063", "logger": "pipeline"}
+{"ts": 1789676072.738, "level": "INFO", "msg": "[gpt-4o-mini] asked: What does an embedding dimension represe | cost: $0.000050", "logger": "pipeline"}
+{"ts": 1789676075.428, "level": "INFO", "msg": "[gpt-4o-mini] asked: Why is structured JSON logging preferred | cost: $0.000047", "logger": "pipeline"}
+{"ts": 1789676077.38, "level": "INFO", "msg": "[gpt-4o-mini] asked: How do rate limits protect AI API infras | cost: $0.000038", "logger": "pipeline"}
+{"ts": 1789676079.331, "level": "INFO", "msg": "[gpt-4o-mini] asked: What role does a cross-encoder play in r | cost: $0.000052", "logger": "pipeline"}
+{"ts": 1789676081.428, "level": "INFO", "msg": "[gpt-4o-mini] asked: Explain what zero-shot classification me | cost: $0.000055", "logger": "pipeline"}
+{"ts": 1789676149.706, "level": "INFO", "msg": "[llama3.2:3b] asked: What is retrieval-augmented generation i | cost: $0.000000", "logger": "pipeline"}
+{"ts": 1789676163.085, "level": "INFO", "msg": "[llama3.2:3b] asked: Name three real-world uses of vector dat | cost: $0.000000", "logger": "pipeline"}
+{"ts": 1789676174.255, "level": "INFO", "msg": "[llama3.2:3b] asked: Why might an LLM produce hallucinations? | cost: $0.000000", "logger": "pipeline"}
+{"ts": 1789676184.28, "level": "INFO", "msg": "[llama3.2:3b] asked: What is a Pydantic BaseModel used for in | cost: $0.000000", "logger": "pipeline"}
+{"ts": 1789676194.343, "level": "INFO", "msg": "[llama3.2:3b] asked: Explain async and await in plain languag | cost: $0.000000", "logger": "pipeline"}
+{"ts": 1789676206.064, "level": "INFO", "msg": "[llama3.2:3b] asked: How does cosine similarity measure seman | cost: $0.000000", "logger": "pipeline"}
+{"ts": 1789676213.593, "level": "INFO", "msg": "[llama3.2:3b] asked: What is the difference between a prompt  | cost: $0.000000", "logger": "pipeline"}
+{"ts": 1789676223.444, "level": "INFO", "msg": "[llama3.2:3b] asked: Why do production pipelines require expo | cost: $0.000000", "logger": "pipeline"}
+{"ts": 1789676234.515, "level": "INFO", "msg": "[llama3.2:3b] asked: What is tokenization in the context of l | cost: $0.000000", "logger": "pipeline"}
+{"ts": 1789676246.084, "level": "INFO", "msg": "[llama3.2:3b] asked: Name two differences between dense and s | cost: $0.000000", "logger": "pipeline"}
+{"ts": 1789676254.521, "level": "INFO", "msg": "[llama3.2:3b] asked: What is the primary trade-off of using l | cost: $0.000000", "logger": "pipeline"}
+{"ts": 1789676264.697, "level": "INFO", "msg": "[llama3.2:3b] asked: Why should API secrets never be committe | cost: $0.000000", "logger": "pipeline"}
+{"ts": 1789676275.284, "level": "INFO", "msg": "[llama3.2:3b] asked: How does temperature affect LLM output s | cost: $0.000000", "logger": "pipeline"}
+{"ts": 1789676282.993, "level": "INFO", "msg": "[llama3.2:3b] asked: What is the purpose of a database foreig | cost: $0.000000", "logger": "pipeline"}
+{"ts": 1789676295.636, "level": "INFO", "msg": "[llama3.2:3b] asked: Explain the difference between asyncio.g | cost: $0.000000", "logger": "pipeline"}
+{"ts": 1789676304.496, "level": "INFO", "msg": "[llama3.2:3b] asked: What does an embedding dimension represe | cost: $0.000000", "logger": "pipeline"}
+{"ts": 1789676316.473, "level": "INFO", "msg": "[llama3.2:3b] asked: Why is structured JSON logging preferred | cost: $0.000000", "logger": "pipeline"}
+{"ts": 1789676326.553, "level": "INFO", "msg": "[llama3.2:3b] asked: How do rate limits protect AI API infras | cost: $0.000000", "logger": "pipeline"}
+{"ts": 1789676337.416, "level": "INFO", "msg": "[llama3.2:3b] asked: What role does a cross-encoder play in r | cost: $0.000000", "logger": "pipeline"}
+{"ts": 1789676348.128, "level": "INFO", "msg": "[llama3.2:3b] asked: Explain what zero-shot classification me | cost: $0.000000", "logger": "pipeline"}
