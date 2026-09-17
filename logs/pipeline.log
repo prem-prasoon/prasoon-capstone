@@ -1,0 +1,56 @@
+{"ts": 1789666244.786, "level": "INFO", "msg": "config: {'questions_csv': 'data\\\\questions.csv', 'results_json': 'results.json', 'results_db': 'results.db', 'batch_size': 5, 'fail_rate': 0.0, 'model': 'gpt-4o-mini', 'use_fake': False}", "logger": "pipeline"}
+{"ts": 1789666244.787, "level": "INFO", "msg": "loaded 20 questions", "logger": "pipeline"}
+{"ts": 1789666244.788, "level": "INFO", "msg": "batch 1: 5 questions", "logger": "pipeline"}
+{"ts": 1789666249.333, "level": "INFO", "msg": "asked: What is retrieval-augmented generation i", "logger": "pipeline"}
+{"ts": 1789666249.578, "level": "INFO", "msg": "asked: What is a Pydantic BaseModel used for in", "logger": "pipeline"}
+{"ts": 1789666250.538, "level": "INFO", "msg": "asked: Name three real-world uses of vector dat", "logger": "pipeline"}
+{"ts": 1789666251.135, "level": "INFO", "msg": "asked: Explain async and await in plain languag", "logger": "pipeline"}
+{"ts": 1789666254.211, "level": "INFO", "msg": "asked: Why might an LLM produce hallucinations?", "logger": "pipeline"}
+{"ts": 1789666254.312, "level": "INFO", "msg": "batch 2: 5 questions", "logger": "pipeline"}
+{"ts": 1789666256.416, "level": "INFO", "msg": "asked: What is the difference between a prompt ", "logger": "pipeline"}
+{"ts": 1789666256.641, "level": "INFO", "msg": "asked: Name two differences between dense and s", "logger": "pipeline"}
+{"ts": 1789666256.751, "level": "INFO", "msg": "asked: Why do production pipelines require expo", "logger": "pipeline"}
+{"ts": 1789666257.736, "level": "INFO", "msg": "asked: How does cosine similarity measure seman", "logger": "pipeline"}
+{"ts": 1789666258.28, "level": "INFO", "msg": "asked: What is tokenization in the context of l", "logger": "pipeline"}
+{"ts": 1789666258.386, "level": "INFO", "msg": "batch 3: 5 questions", "logger": "pipeline"}
+{"ts": 1789666260.751, "level": "INFO", "msg": "asked: How does temperature affect LLM output s", "logger": "pipeline"}
+{"ts": 1789666260.783, "level": "INFO", "msg": "asked: Why should API secrets never be committe", "logger": "pipeline"}
+{"ts": 1789666261.184, "level": "INFO", "msg": "asked: What is the purpose of a database foreig", "logger": "pipeline"}
+{"ts": 1789666261.651, "level": "INFO", "msg": "asked: What is the primary trade-off of using l", "logger": "pipeline"}
+{"ts": 1789666263.074, "level": "INFO", "msg": "asked: Explain the difference between asyncio.g", "logger": "pipeline"}
+{"ts": 1789666263.185, "level": "INFO", "msg": "batch 4: 5 questions", "logger": "pipeline"}
+{"ts": 1789666264.657, "level": "INFO", "msg": "asked: What does an embedding dimension represe", "logger": "pipeline"}
+{"ts": 1789666264.92, "level": "INFO", "msg": "asked: Explain what zero-shot classification me", "logger": "pipeline"}
+{"ts": 1789666265.866, "level": "INFO", "msg": "asked: What role does a cross-encoder play in r", "logger": "pipeline"}
+{"ts": 1789666266.016, "level": "INFO", "msg": "asked: How do rate limits protect AI API infras", "logger": "pipeline"}
+{"ts": 1789666267.424, "level": "INFO", "msg": "asked: Why is structured JSON logging preferred", "logger": "pipeline"}
+{"ts": 1789666267.53, "level": "INFO", "msg": "summary: {\"started_at\":1789666244.7872481,\"elapsed_seconds\":22.74,\"n_questions\":20,\"n_succeeded\":20,\"n_retries_total\":0,\"total_cost_usd\":0.002,\"fail_rate\":0.0,\"use_fake\":false}", "logger": "pipeline"}
+{"ts": 1789666267.593, "level": "INFO", "msg": "persisted run 1 with 20 answers to results.db", "logger": "pipeline"}
+{"ts": 1789666313.402, "level": "INFO", "msg": "config: {'questions_csv': 'data\\\\questions.csv', 'results_json': 'results.json', 'results_db': 'results.db', 'batch_size': 5, 'fail_rate': 0.0, 'model': 'gpt-4o-mini', 'use_fake': False}", "logger": "pipeline"}
+{"ts": 1789666313.402, "level": "INFO", "msg": "loaded 20 questions", "logger": "pipeline"}
+{"ts": 1789666313.403, "level": "INFO", "msg": "batch 1: 5 questions", "logger": "pipeline"}
+{"ts": 1789666317.075, "level": "INFO", "msg": "asked: What is retrieval-augmented generation i", "logger": "pipeline"}
+{"ts": 1789666317.456, "level": "INFO", "msg": "asked: Name three real-world uses of vector dat", "logger": "pipeline"}
+{"ts": 1789666317.467, "level": "INFO", "msg": "asked: Explain async and await in plain languag", "logger": "pipeline"}
+{"ts": 1789666317.656, "level": "INFO", "msg": "asked: Why might an LLM produce hallucinations?", "logger": "pipeline"}
+{"ts": 1789666318.945, "level": "INFO", "msg": "asked: What is a Pydantic BaseModel used for in", "logger": "pipeline"}
+{"ts": 1789666319.05, "level": "INFO", "msg": "batch 2: 5 questions", "logger": "pipeline"}
+{"ts": 1789666320.963, "level": "INFO", "msg": "asked: What is the difference between a prompt ", "logger": "pipeline"}
+{"ts": 1789666320.993, "level": "INFO", "msg": "asked: Name two differences between dense and s", "logger": "pipeline"}
+{"ts": 1789666321.824, "level": "INFO", "msg": "asked: Why do production pipelines require expo", "logger": "pipeline"}
+{"ts": 1789666321.955, "level": "INFO", "msg": "asked: What is tokenization in the context of l", "logger": "pipeline"}
+{"ts": 1789666322.954, "level": "INFO", "msg": "asked: How does cosine similarity measure seman", "logger": "pipeline"}
+{"ts": 1789666323.065, "level": "INFO", "msg": "batch 3: 5 questions", "logger": "pipeline"}
+{"ts": 1789666325.242, "level": "INFO", "msg": "asked: What is the purpose of a database foreig", "logger": "pipeline"}
+{"ts": 1789666325.648, "level": "INFO", "msg": "asked: How does temperature affect LLM output s", "logger": "pipeline"}
+{"ts": 1789666325.969, "level": "INFO", "msg": "asked: What is the primary trade-off of using l", "logger": "pipeline"}
+{"ts": 1789666326.524, "level": "INFO", "msg": "asked: Why should API secrets never be committe", "logger": "pipeline"}
+{"ts": 1789666327.201, "level": "INFO", "msg": "asked: Explain the difference between asyncio.g", "logger": "pipeline"}
+{"ts": 1789666327.314, "level": "INFO", "msg": "batch 4: 5 questions", "logger": "pipeline"}
+{"ts": 1789666328.904, "level": "INFO", "msg": "asked: What does an embedding dimension represe", "logger": "pipeline"}
+{"ts": 1789666329.2, "level": "INFO", "msg": "asked: Explain what zero-shot classification me", "logger": "pipeline"}
+{"ts": 1789666329.897, "level": "INFO", "msg": "asked: How do rate limits protect AI API infras", "logger": "pipeline"}
+{"ts": 1789666330.351, "level": "INFO", "msg": "asked: What role does a cross-encoder play in r", "logger": "pipeline"}
+{"ts": 1789666331.01, "level": "INFO", "msg": "asked: Why is structured JSON logging preferred", "logger": "pipeline"}
+{"ts": 1789666331.115, "level": "INFO", "msg": "summary: {\"started_at\":1789666313.4021206,\"elapsed_seconds\":17.71,\"n_questions\":20,\"n_succeeded\":20,\"n_retries_total\":0,\"total_cost_usd\":0.002,\"fail_rate\":0.0,\"use_fake\":false}", "logger": "pipeline"}
+{"ts": 1789666331.146, "level": "INFO", "msg": "persisted run 2 with 20 answers to results.db", "logger": "pipeline"}

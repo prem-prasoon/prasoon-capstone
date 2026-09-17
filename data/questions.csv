@@ -1,0 +1,21 @@
+text
+What is retrieval-augmented generation in one sentence?
+Name three real-world uses of vector databases.
+Why might an LLM produce hallucinations?
+What is a Pydantic BaseModel used for in Python?
+Explain async and await in plain language.
+How does cosine similarity measure semantic distance?
+What is the difference between a prompt and a system message?
+Why do production pipelines require exponential backoff?
+What is tokenization in the context of large language models?
+Name two differences between dense and sparse embeddings.
+What is the primary trade-off of using larger chunk sizes in RAG?
+Why should API secrets never be committed to git?
+How does temperature affect LLM output sampling?
+What is the purpose of a database foreign key?
+Explain the difference between asyncio.gather and as_completed.
+What does an embedding dimension represent?
+Why is structured JSON logging preferred over plain text logs?
+How do rate limits protect AI API infrastructure?
+What role does a cross-encoder play in re-ranking search results?
+Explain what zero-shot classification means.
