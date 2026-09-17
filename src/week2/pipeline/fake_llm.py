@@ -3,6 +3,9 @@ import asyncio
 import random
 from dataclasses import dataclass
 
+class FakeLLMError(Exception):
+    """Raised when fake_ask_llm encounters a simulated failure."""
+    pass
 
 @dataclass
 class Question:

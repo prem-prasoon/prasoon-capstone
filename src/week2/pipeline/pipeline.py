@@ -8,6 +8,7 @@ from dotenv import load_dotenv
 from openai import AsyncOpenAI
 from pydantic import BaseModel
 from src.config import OPENAI_BASE_URL, OPENAI_MODEL
+from src.week2.pipeline.fake_llm import FakeLLMError, fake_ask_llm
 from src.week2.pipeline.logging_config import get_logger
 from src.week2.pipeline.settings import RunSummary, Settings
 
@@ -35,7 +36,14 @@ def load_questions(path: str | Path = "data/questions.csv") -> list[Question]:
         return [Question(text=row["text"]) for row in reader if row.get("text")]
 
 
-async def ask_llm(q: Question) -> Answer:
+async def ask_llm(q: Question, settings: Settings | None = None) -> Answer:
+    settings = settings or Settings()
+
+    # Route to fake LLM simulator if configured
+    if settings.use_fake:
+        content = await fake_ask_llm(q, fail_rate=settings.fail_rate)
+        return Answer(question=q.text, text=content.text, cost_usd=0.0, retries=0)
+
     completion = await _client.chat.completions.create(
         model=OPENAI_MODEL,
         messages=[
@@ -49,13 +57,17 @@ async def ask_llm(q: Question) -> Answer:
     return Answer(question=q.text, text=ans_text, cost_usd=0.0001)
 
 
-async def ask_llm_with_retry(q: Question, tries: int = 3) -> Answer:
+async def ask_llm_with_retry(
+    q: Question, 
+    tries: int = 3, 
+    settings: Settings | None = None
+) -> Answer:
     for attempt in range(tries):
         try:
-            ans = await ask_llm(q)
+            ans = await ask_llm(q, settings=settings)
             ans.retries = attempt
             return ans
-        except Exception as exc:
+        except (FakeLLMError, ConnectionError, Exception) as exc:
             if attempt == tries - 1:
                 log.error(f"Failed after {tries} attempts: {q.text[:40]} ({exc})")
                 raise
@@ -76,12 +88,18 @@ async def run_batch_stream(questions: list[Question]) -> list[Answer]:
 
 
 # --- Formal Lab function (batched gather) ---
-async def run_in_batches(questions: list[Question], batch_size: int = 5) -> list[Answer]:
+async def run_in_batches(
+    questions: list[Question], 
+    batch_size: int = 5,
+    settings: Settings | None = None,
+) -> list[Answer]:
     out: list[Answer] = []
     for i in range(0, len(questions), batch_size):
         chunk = questions[i : i + batch_size]
         log.info(f"batch {i // batch_size + 1}: {len(chunk)} questions")
-        batch_answers = await asyncio.gather(*(ask_llm_with_retry(q) for q in chunk))
+        batch_answers = await asyncio.gather(
+            *(ask_llm_with_retry(q, settings=settings) for q in chunk)
+        )
         out.extend(batch_answers)
         await asyncio.sleep(0.1)
     return out
@@ -117,7 +135,9 @@ if __name__ == "__main__":
     log.info(f"loaded {len(questions)} questions")
 
     started = time.time()
-    answers = asyncio.run(run_in_batches(questions, batch_size=settings.batch_size))
+    answers = asyncio.run(
+        run_in_batches(questions, batch_size=settings.batch_size, settings=settings)
+    )
     elapsed = time.time() - started
 
     summary = summarise_run(

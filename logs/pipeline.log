@@ -54,3 +54,17 @@
 {"ts": 1789666331.01, "level": "INFO", "msg": "asked: Why is structured JSON logging preferred", "logger": "pipeline"}
 {"ts": 1789666331.115, "level": "INFO", "msg": "summary: {\"started_at\":1789666313.4021206,\"elapsed_seconds\":17.71,\"n_questions\":20,\"n_succeeded\":20,\"n_retries_total\":0,\"total_cost_usd\":0.002,\"fail_rate\":0.0,\"use_fake\":false}", "logger": "pipeline"}
 {"ts": 1789666331.146, "level": "INFO", "msg": "persisted run 2 with 20 answers to results.db", "logger": "pipeline"}
+{"ts": 1789669981.608, "level": "WARNING", "msg": "retry 1 for: fail_test (Transient API failure)", "logger": "pipeline"}
+{"ts": 1789669981.609, "level": "WARNING", "msg": "retry 2 for: fail_test (Transient API failure)", "logger": "pipeline"}
+{"ts": 1789669981.609, "level": "ERROR", "msg": "Failed after 3 attempts: fail_test (Transient API failure)", "logger": "pipeline"}
+{"ts": 1789670287.37, "level": "INFO", "msg": "asked: What is RAG?", "logger": "pipeline"}
+{"ts": 1789670406.749, "level": "INFO", "msg": "asked: What is RAG?", "logger": "pipeline"}
+{"ts": 1789670406.756, "level": "INFO", "msg": "asked: What is RAG?", "logger": "pipeline"}
+{"ts": 1789670406.901, "level": "INFO", "msg": "asked: What is RAG?", "logger": "pipeline"}
+{"ts": 1789670412.479, "level": "INFO", "msg": "asked: What is RAG?", "logger": "pipeline"}
+{"ts": 1789670412.783, "level": "INFO", "msg": "asked: What is RAG?", "logger": "pipeline"}
+{"ts": 1789670412.8, "level": "INFO", "msg": "asked: What is RAG?", "logger": "pipeline"}
+{"ts": 1789670418.958, "level": "INFO", "msg": "asked: What is RAG?", "logger": "pipeline"}
+{"ts": 1789670419.586, "level": "INFO", "msg": "asked: What is RAG?", "logger": "pipeline"}
+{"ts": 1789670419.832, "level": "INFO", "msg": "asked: What is RAG?", "logger": "pipeline"}
+{"ts": 1789670424.799, "level": "INFO", "msg": "asked: What is RAG?", "logger": "pipeline"}
